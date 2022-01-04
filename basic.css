@@ -1,0 +1,26 @@
+img {
+  border-radius: 4px;
+  margin-top: -15px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.label {
+  color: black;
+  padding: 8px;
+  font-family: Arial;
+}
+/* added */
+.left-column
+{
+   width: 200px;
+   min-height: 1px;
+   float: left;
+}
+
+.right-column
+{
+    width: 500px;
+    min-height: 1px;
+    float: left;
+}
