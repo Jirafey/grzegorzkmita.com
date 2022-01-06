@@ -1,26 +1,18 @@
-img {
-  border-radius: 4px;
-  margin-top: -15px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+body{
+	background: #DDA0DD;
 }
-.label {
-  color: black;
-  padding: 8px;
-  font-family: Arial;
+div{
+	
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	
 }
-/* added */
-.left-column
-{
-   width: 200px;
-   min-height: 1px;
-   float: left;
-}
-
-.right-column
-{
-    width: 500px;
-    min-height: 1px;
-    float: left;
+img{
+	border-radius: 10px;
+	margin-top:2px;
+	margin-right:2px;
+	margin-bottom:2px;
+	margin-left:2px;
+	
 }
