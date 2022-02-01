@@ -48,5 +48,21 @@ Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
 
 
 </textarea><br><br> <input type=”submit” value=”Submit”> </form>
+	<?php
+
+
+if($_POST["message"]) {
+
+
+mail("your@email.address", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
 </body>
 </html>
